@@ -27,7 +27,7 @@ a {
 .name-home {
     font-family: Georgia, 'Times New Roman', Times, serif;
     position: fixed;
-    top: 2%;
+    top: 0;
     left: 14%;
     background-color: #4aaaa5;
     color: #ffffff;
@@ -35,7 +35,7 @@ a {
 
 nav {
     position: fixed;
-    top: 2%;
+    top: 0;
     right: 14%;
     color: #777777;
     background-color: #ffffff;
@@ -51,10 +51,68 @@ nav {
 
 .titlebar {
     position: fixed;
-    top: 2%;
+    top: 0;
     padding: 30px;
     width: 100%;
     background-color: #ffffff;
     color: #ffffff;
     left: 0;
+    border-bottom: #4aaaa5;
+    border-top-style: solid;
+    border-top-width: 100%;
+    z-index: 3;
+}
+
+.foot {
+    position: fixed;
+    bottom: 0;
+    padding: 20px;
+    width: 100%;
+    background-color: #484848;
+    border-top: #4aaaa5;
+    border-top-style: solid;
+    border-top-width: 100%;
+    color: #ffffff;
+    left: 0;
+    text-align: center;
+    z-index: 1;
+}
+
+.text {
+    line-height: 30px;
+    font-size: 16px;
+}
+
+img {
+    height: 240px;
+    width: 320px;
+}
+
+.pictext {
+    position: absolute;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    bottom: 0%;
+    width: 280px;
+    padding: 20px;
+    text-align: center;
+    z-index: 2;
+}
+
+.picstyle {
+    position: relative;
+    padding: 0;
+    border: #4aaaa5;
+    border-style: solid;
+    float: left;
+    z-index: 1;
+    margin: 20px;
+}
+
+.portfoliomarg {
+    position: ;
+    margin-top: 120px; 
+    background-color: #ffffff;
+    padding: 10px;
+    padding-bottom: 900px;
 }
