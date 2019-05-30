@@ -110,6 +110,7 @@ img {
     float: left;
     z-index: 1;
     margin: 20px;
+    height: 240px;
 }
 
 .portfoliomarg {
