@@ -5,7 +5,7 @@ body {
     margin: 0 auto;
     font-family: Arial, Helvetica, sans-serif;
     color: #777777;
-    background-color: lightgrey;
+    background-image: url(https://www.muralswallpaper.co.uk/app/uploads/grey-brick-plain.jpg)
 }
 
 .content {
@@ -31,6 +31,7 @@ a {
     left: 14%;
     background-color: #4aaaa5;
     color: #ffffff;
+    padding: 2px;
 }
 
 nav {
@@ -60,13 +61,15 @@ nav {
     border-bottom: #4aaaa5;
     border-top-style: solid;
     border-top-width: 100%;
+    border-bottom-width: 100%;
+    border-bottom-style: solid;
     z-index: 3;
 }
 
 .foot {
     position: fixed;
     bottom: 0;
-    padding: 20px;
+    padding: 10px;
     width: 100%;
     background-color: #484848;
     border-top: #4aaaa5;
@@ -116,3 +119,29 @@ img {
     padding: 10px;
     padding-bottom: 900px;
 }
+
+.input1 {
+    width: 940px;
+    line-height: 30px;
+    font-size: 18px;
+}
+
+.input2 {
+    width: 940px;
+    /* height: 200px; */
+    line-height: 30px;
+    font-size: 18px;
+}
+.text2 {
+    background-color: white;
+    flex-direction: column;
+    resize: auto;
+    cursor: text;
+    white-space: pre-wrap;
+    overflow-wrap: break-word;
+    font-size: 18px;
+    width: 940px;
+    height: 200px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
